@@ -408,7 +408,7 @@ header {
     left: 0;
     bottom: 0;
     min-height: 72px;
-    background: right center no-repeat url(/images/chevron-orange-bg.svg)
+    background: right center no-repeat url(../images/chevron-orange-bg.svg)
       $secondary-brand-color;
     vertical-align: middle;
     @extend %white-color;
@@ -426,7 +426,7 @@ header {
 }
 
 .space-card-blue {
-  background: right top url(/images/scratches.svg) no-repeat
+  background: right top url(../images/scratches.svg) no-repeat
     $primary-brand-color;
   min-height: 42%;
   @extend %white-color;
@@ -526,22 +526,22 @@ header {
     }
 
     .meeting-rooms {
-      background: left top no-repeat url(/images/meeting-room.svg);
+      background: left top no-repeat url(../images/meeting-room.svg);
     }
     .circus {
-      background: left top no-repeat url(/images/circus.svg);
+      background: left top no-repeat url(../images/circus.svg);
     }
     .flag {
-      background: left top no-repeat url(/images/flag.svg);
+      background: left top no-repeat url(../images/flag.svg);
     }
     .internet {
-      background: left top no-repeat url(/images/wifi.svg);
+      background: left top no-repeat url(../images/wifi.svg);
     }
     .user {
-      background: left top no-repeat url(/images/user.svg);
+      background: left top no-repeat url(../images/user.svg);
     }
     .users {
-      background: left top no-repeat url(/images/users.svg);
+      background: left top no-repeat url(../images/users.svg);
     }
   }
 
@@ -571,7 +571,7 @@ header {
     }
 
     .rubric {
-      background: right center no-repeat url(/images/bar-white.svg);
+      background: right center no-repeat url(../images/bar-white.svg);
     }
   }
 }
@@ -908,12 +908,12 @@ header {
       img {
         width: 64px;
         height: 48px;
-        background: url(/images/chevron-down.svg) center center no-repeat
+        background: url(../images/chevron-down.svg) center center no-repeat
           $secondary-brand-color;
       }
 
       .chevron {
-        background: url(/images/chevron-down.svg) center center no-repeat
+        background: url(../images/chevron-down.svg) center center no-repeat
           $secondary-brand-color;
         @include faq-chevron();
 
@@ -958,7 +958,7 @@ header {
       }
 
       .chevron {
-        background: url(/images/chevron-down.svg) center center no-repeat
+        background: url(../images/chevron-down.svg) center center no-repeat
           $white-color;
         @include faq-chevron();
 
@@ -977,8 +977,8 @@ header {
       img {
         width: 64px;
         height: 48px;
-        background: url(/images/chevron-down-orange.svg) center center no-repeat
-          $white-color;
+        background: url(../images/chevron-down-orange.svg) center center
+          no-repeat $white-color;
       }
     }
   }
@@ -992,12 +992,12 @@ header {
   a {
     @extend %secondary-brand-color;
     @extend %text-decoration-none;
-    background: url(/images/chevron-orange.svg) right center no-repeat;
+    background: url(../images/chevron-orange.svg) right center no-repeat;
     padding: 0 40px 0 30px;
   }
 
   a:hover {
-    background: url(/images/chevron-orange.svg) left center no-repeat;
+    background: url(../images/chevron-orange.svg) left center no-repeat;
     @extend %transition;
   }
 }
@@ -1051,7 +1051,7 @@ header {
       @extend %flex-space-between;
 
       .image {
-        background: url(/images/news-1.jpg) center center/cover no-repeat;
+        background: url(../images/news-1.jpg) center center/cover no-repeat;
         width: 47.9452%;
       }
 

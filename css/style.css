@@ -486,7 +486,7 @@ header nav li:last-child {
   left: 0;
   bottom: 0;
   min-height: 72px;
-  background: right center no-repeat url(/images/chevron-orange-bg.svg) #ff5722;
+  background: right center no-repeat url(../images/chevron-orange-bg.svg) #ff5722;
   vertical-align: middle;
   padding-right: 72px;
   -webkit-box-align: center;
@@ -500,7 +500,7 @@ header nav li:last-child {
 }
 
 .space-card-blue {
-  background: right top url(/images/scratches.svg) no-repeat #10375c;
+  background: right top url(../images/scratches.svg) no-repeat #10375c;
   min-height: 42%;
   text-align: center;
 }
@@ -588,27 +588,27 @@ header nav li:last-child {
 }
 
 .why-frispes-section .our-support .meeting-rooms {
-  background: left top no-repeat url(/images/meeting-room.svg);
+  background: left top no-repeat url(../images/meeting-room.svg);
 }
 
 .why-frispes-section .our-support .circus {
-  background: left top no-repeat url(/images/circus.svg);
+  background: left top no-repeat url(../images/circus.svg);
 }
 
 .why-frispes-section .our-support .flag {
-  background: left top no-repeat url(/images/flag.svg);
+  background: left top no-repeat url(../images/flag.svg);
 }
 
 .why-frispes-section .our-support .internet {
-  background: left top no-repeat url(/images/wifi.svg);
+  background: left top no-repeat url(../images/wifi.svg);
 }
 
 .why-frispes-section .our-support .user {
-  background: left top no-repeat url(/images/user.svg);
+  background: left top no-repeat url(../images/user.svg);
 }
 
 .why-frispes-section .our-support .users {
-  background: left top no-repeat url(/images/users.svg);
+  background: left top no-repeat url(../images/users.svg);
 }
 
 .why-frispes-section .why-frispes {
@@ -634,7 +634,7 @@ header nav li:last-child {
 }
 
 .why-frispes-section .why-frispes .rubric {
-  background: right center no-repeat url(/images/bar-white.svg);
+  background: right center no-repeat url(../images/bar-white.svg);
 }
 
 .facilities-section {
@@ -941,11 +941,11 @@ header nav li:last-child {
 .faq-section .container .box img {
   width: 64px;
   height: 48px;
-  background: url(/images/chevron-down.svg) center center no-repeat #ff5722;
+  background: url(../images/chevron-down.svg) center center no-repeat #ff5722;
 }
 
 .faq-section .container .box .chevron {
-  background: url(/images/chevron-down.svg) center center no-repeat #ff5722;
+  background: url(../images/chevron-down.svg) center center no-repeat #ff5722;
   margin-left: -29px;
   left: 50%;
   position: absolute;
@@ -994,7 +994,7 @@ header nav li:last-child {
 }
 
 .faq-section .container .box-selected .chevron {
-  background: url(/images/chevron-down.svg) center center no-repeat #fff;
+  background: url(../images/chevron-down.svg) center center no-repeat #fff;
   margin-left: -29px;
   left: 50%;
   position: absolute;
@@ -1022,7 +1022,7 @@ header nav li:last-child {
 .faq-section .container .box-selected img {
   width: 64px;
   height: 48px;
-  background: url(/images/chevron-down-orange.svg) center center no-repeat #fff;
+  background: url(../images/chevron-down-orange.svg) center center no-repeat #fff;
 }
 
 .faq-section .more-information {
@@ -1030,12 +1030,12 @@ header nav li:last-child {
 }
 
 .more-information a {
-  background: url(/images/chevron-orange.svg) right center no-repeat;
+  background: url(../images/chevron-orange.svg) right center no-repeat;
   padding: 0 40px 0 30px;
 }
 
 .more-information a:hover {
-  background: url(/images/chevron-orange.svg) left center no-repeat;
+  background: url(../images/chevron-orange.svg) left center no-repeat;
 }
 
 .news-section {
@@ -1084,7 +1084,7 @@ header nav li:last-child {
 }
 
 .news-section .container .columns-8-1110 .image {
-  background: url(/images/news-1.jpg) center center/cover no-repeat;
+  background: url(../images/news-1.jpg) center center/cover no-repeat;
   width: 47.9452%;
 }
 
