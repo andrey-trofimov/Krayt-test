@@ -177,6 +177,8 @@ $plain-font: "Lato", Geneva, Tahoma, sans-serif;
   }
 }
 
+// ========================== Common style ===================
+
 body {
   font-family: $plain-font;
 }
@@ -264,6 +266,29 @@ header {
   @extend %transition;
 }
 
+@media screen and (max-width: 660px) {
+  header,
+  .login {
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    order: 1;
+  }
+
+  nav {
+    order: 3;
+    ul {
+      max-width: 100%;
+      justify-content: space-between;
+    }
+  }
+
+  .login {
+    order: 2;
+  }
+}
+
 // ========================== hero_section ========================
 
 .hero_section {
@@ -335,6 +360,21 @@ header {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .hero_section .container {
+    flex-direction: column;
+    h1 {
+      font-size: 3rem;
+      line-height: normal;
+    }
+
+    h1,
+    p {
+      width: 100%;
+    }
+  }
+}
+
 // ========================== our_space_section ========================
 
 .our_space_section {
@@ -375,6 +415,39 @@ header {
     display: inline-block;
     margin-left: 23px;
     vertical-align: middle;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .our_space_section {
+    .title {
+      width: 31.5%;
+    }
+    .subtitle {
+      width: 65.76%;
+    }
+    .arrow-nav {
+      margin-left: -23px;
+      margin-top: 10px;
+      padding-left: 34.23%;
+      justify-content: flex-start;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .our_space_section {
+    .container {
+      .title,
+      .subtitle,
+      .arrow-nav {
+        width: 100%;
+      }
+
+      .arrow-nav {
+        justify-content: flex-end;
+      }
+    }
   }
 }
 
@@ -437,6 +510,7 @@ header {
     font-size: 2rem;
     margin-top: 150px;
     font-weight: 400;
+    padding: 0 10px;
   }
 
   p {
@@ -490,6 +564,36 @@ header {
 
   .total {
     @extend %gray-color-1;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .space-card-blue {
+    h3 {
+      margin-top: 25%;
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    margin-bottom: -3%;
+  }
+
+  .space {
+    width: 48.64%;
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin-bottom: 5%;
+  }
+
+  .space {
+    width: 100%;
+    margin-bottom: 5%;
   }
 }
 
@@ -576,6 +680,49 @@ header {
   }
 }
 
+@media screen and (max-width: 1035px) {
+  .why-frispes-section {
+    .why-frispes {
+      padding-top: 40px;
+      padding-bottom: 35px;
+
+      span,
+      p,
+      h2 {
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+
+      h2 {
+        font-size: 2rem;
+        line-height: 2.8rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .why-frispes-section {
+    .our-support,
+    .why-frispes {
+      width: 100%;
+    }
+
+    .why-frispes {
+      margin-top: 20px;
+    }
+
+    .our-support {
+      margin-bottom: -20px;
+    }
+
+    .our-support > div {
+      width: 170px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
 // ========================== facilities-section ========================
 
 .facilities-section {
@@ -644,6 +791,61 @@ header {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .facilities-section {
+    h2 {
+      width: 85%;
+    }
+
+    .container {
+      .menu {
+        width: 22.97%;
+
+        li {
+          a {
+            padding: 10%;
+          }
+        }
+      }
+
+      .img {
+        width: 74.41%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .facilities-section {
+    h2 {
+      width: 100%;
+    }
+
+    .container {
+      margin-top: 30px;
+      .menu {
+        width: 100%;
+
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+        }
+
+        li {
+          width: auto;
+
+          a {
+            padding: 10px;
+          }
+        }
+      }
+
+      .img {
+        width: 100%;
+      }
+    }
+  }
+}
 // ============================= Gallary section ===============================
 
 .gallary-section {
@@ -695,12 +897,14 @@ header {
 
     .image {
       width: 30.9%;
-      margin-right: 2.08%;
-      display: inline-block;
     }
 
     .preview {
       width: 24.3%;
+    }
+
+    .preview,
+    .image {
       margin-right: 2.08%;
       display: inline-block;
     }
@@ -727,7 +931,7 @@ header {
       .arrow-nav {
         justify-content: flex-end;
         margin-left: 0;
-        margin-top: 40px;
+        margin-top: 20px;
 
         img {
           margin-left: 23px;
@@ -739,6 +943,35 @@ header {
     .gallery {
       margin-top: 50px;
       vertical-align: middle;
+    }
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .gallary-section .container .first {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .gallary-section {
+    .container {
+      .gallary-title {
+        flex-direction: column;
+      }
+    }
+    .gallery {
+      white-space: initial;
+      text-align: center;
+      .first {
+        margin-left: 0;
+      }
+
+      .preview,
+      .image {
+        width: 47%;
+        margin: 1%;
+      }
     }
   }
 }
@@ -778,7 +1011,7 @@ header {
     }
 
     img {
-      margin: 0 10px;
+      margin: 0 20px;
     }
   }
 }
@@ -858,6 +1091,34 @@ header {
   }
 }
 
+@media screen and (max-width: 1030px) {
+  .customer-reviews-section {
+    .container {
+      h2 {
+        width: 100%;
+      }
+
+      .arrow-nav {
+        margin-left: auto;
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .customer-reviews-section {
+    .customer-reviews {
+      flex-wrap: wrap;
+      margin-bottom: -20px;
+      .review {
+        width: 77%;
+        min-height: auto;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
 // ============================= faq section ===============================
 
 @mixin faq-chevron {
@@ -1002,6 +1263,25 @@ header {
   }
 }
 
+@media screen and (max-width: 890px) {
+  .faq-section h2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .faq-section .container {
+    flex-direction: column;
+    margin-bottom: -50px;
+
+    .box,
+    .box-selected {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+  }
+}
+
 // ============================= news section ===============================
 
 .news-section {
@@ -1019,6 +1299,12 @@ header {
   .title {
     @extend %flex-space-between;
     align-items: baseline;
+
+    p {
+      display: block;
+      text-align: right;
+      width: 100%;
+    }
   }
 
   .container {
@@ -1118,6 +1404,45 @@ header {
   }
 }
 
+@media screen and(max-width:768px) {
+  .news-section .container {
+    .columns-8-1110 {
+      width: 100%;
+    }
+    .columns-4-1110 {
+      width: 48.64%;
+    }
+  }
+}
+@media screen and(min-width:481px) {
+  .big-news-picture {
+    display: none;
+  }
+}
+
+@media screen and(max-width:480px) {
+  .news-section .container {
+    .columns-4-1110,
+    .columns-8-1110 {
+      width: 100%;
+    }
+
+    .columns-8-1110 {
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .image,
+      .news {
+        width: 100%;
+      }
+
+      .big-news-picture {
+        display: block;
+      }
+    }
+  }
+}
+
 // ============================= footer ===============================
 
 footer {
@@ -1207,5 +1532,31 @@ footer {
   img {
     display: inline-block;
     margin-right: 16px;
+    margin-bottom: 30px;
+  }
+
+  .columns-8-1110.container {
+    margin-top: -30px;
+  }
+
+  .columns-8-1110.container > div {
+    margin-top: 30px;
+  }
+}
+
+@media screen and(max-width:767px) {
+  footer {
+    .container {
+      flex-direction: column;
+    }
+
+    .columns-3-1110,
+    .columns-8-1110 {
+      width: 100%;
+    }
+
+    .columns-8-1110.container {
+      flex-direction: row;
+    }
   }
 }
