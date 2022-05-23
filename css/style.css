@@ -1520,10 +1520,12 @@ footer img {
 
 footer .columns-8-1110.container {
   margin-top: -30px;
+  margin-right: -10px;
 }
 
 footer .columns-8-1110.container > div {
   margin-top: 30px;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 767px) {
